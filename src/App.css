@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container {
+  width: 400px;
+  float: right;
+  margin-top: 250px;
+}
+
+.msg_container_base {
+  background: #e5e5e5;
+  margin: 0;
+  padding: 0 10px 10px;
+  min-height: 365px;
+  max-height:300px;
+  overflow-x:hidden;
+}
+
+.top-bar {
+  background: #666;
+  color: white;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.messages {
+  background: darkcyan;
+  margin-bottom: 5px;
+  margin-top: 2px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  min-width: 281px;
+  padding-left: 5px;
+  padding-top: 6px;
+  text-align: left;
+  list-style: none;
+
+}
+
+.msg_container {
+  padding: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+}
+
+.base_sent {
+justify-content: flex-end;
+align-items: flex-end;
+margin-left: 50px;
+background: #ffe6cb;
+}
+
+.base_receive {
+  align-items: flex-end;
+  margin-right: 50px;
+  background: #c7eafc;
+} 
+
+.msg_container_base::-webkit-scrollbar-track
+{
+  background-color: #F5F5F5;
+}
+
+.msg_container_base::-webkit-scrollbar
+{
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+.msg_container_base::-webkit-scrollbar-thumb
+{
+  background-color: #555;
+}
+
+ul {
+  padding: 0px;
+}
+
+.form-control {
+  display: inline;
+  width: 320px;
+}
